@@ -46,27 +46,7 @@
 </head>
 <body>
 
-  <section class="section hero is-small is-light">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full">
-          <div class="content">
-            <h2 class="title is-3">Method Overview: Mixed Video-Image Finetuning</h2>
-            <center>
-            <img src="static/images/overview.png" alt="Mixed Video-Image Finetuning" class="center-image blend-img-background"/>
-            </center>
-            <div class="level-set has-text-justified">
-              <p>
-                 Finetuning the video diffusion model on the input video alone limits the extent of motion change. Instead, we use a mixed objective that beside the original objective (bottom left) also finetunes on the unordered set of frames. This is done by using “masked temporal attention”, preventing the temporal attention and convolution from being finetuned (bottom right). This allows adding motion to a static video.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
+  
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
@@ -209,6 +189,27 @@
   </div>
 </section>
 <!-- End paper abstract -->
+
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Method Overview: EventAnimate</h2>
+          <center>
+          <img src="static/images/overview.png" alt="Mixed Video-Image Finetuning" class="center-image blend-img-background"/>
+          </center>
+          <div class="level-set has-text-justified">
+            <p>
+               Finetuning the video diffusion model on the input video alone limits the extent of motion change. Instead, we use a mixed objective that beside the original objective (bottom left) also finetunes on the unordered set of frames. This is done by using “masked temporal attention”, preventing the temporal attention and convolution from being finetuned (bottom right). This allows adding motion to a static video.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Image carousel -->
