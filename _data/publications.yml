@@ -4,9 +4,9 @@ main:
     authors: <strong>Ming Li</strong>, Anran Meng, Xiaoming Chen*, Chen Wang, Vera Chung
     conference_short: TALE
     conference: IEEE International Conference on Teaching, Assessment and Learning for Engineering <strong>(TALE)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    pdf: "#"
     code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
+    bibtex: "#"
     image: ./assets/img/EvProsthesis.png
     notes: Oral Presentation
 
